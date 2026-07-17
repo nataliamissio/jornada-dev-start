@@ -15,8 +15,8 @@ Aqui está a organização das entregas do programa, dividida em 10 etapas rumo 
 
 - [x] **Módulo 01:** Boas-vindas, Configuração de Ambiente e Primeiro Programa (Hello World)
 - [x] **Módulo 02:** Lógica de Programação e Algoritmos (Entregue)
-- [ ] **Módulo 03:** [Aguardando conteúdo]
-- [ ] **Módulo 04:** [Aguardando conteúdo]
+- [x] *Módulo 03:* Variáveis, tipos e operadores (Entregue)
+- [x] *Módulo 04:* Decisões (Condicionais) (Entregue)
 - [ ] **Módulo 05:** [Aguardando conteúdo]
 - [ ] **Módulo 06:** [Aguardando conteúdo]
 - [ ] **Módulo 07:** [Aguardando conteúdo]
@@ -41,6 +41,19 @@ Seguindo o padrão exigido para a correção das atividades, a estrutura de past
 │   ├── ex03-fluxograma-desconto.md # Fluxograma visual de decisão de desconto
 │   ├── ex04-refinamento.md       # Decomposição e refinamento sucessivo
 │   └── ex05-reflexao.md          # Reflexão sobre o papel do programador
+├── modulo_03/                    # Exercícios do Módulo 3 (Entregue)
+│   ├── ex01-declaracoes.prg
+│   ├── ex02-formulas.prg
+│   ├── ex03-desconto-idoso.prg
+│   ├── ex04-igualdade.prg
+│   └── ex05-media-ponderada.prg
+│
+├── modulo_04/                    # Exercícios do Módulo 4 (Entregue)
+│   ├── ex01-maior-menor.prg
+│   ├── ex02-reajuste-salarial.prg
+│   ├── ex03-calculadora.prg
+│   ├── ex04-nome-mes.prg
+│   └── ex05-plano-saude.prg
 │
 ├── tcc/                          # Código-fonte do Projeto de Conclusão (Futuro)
 └── README.md                     # Documentação do projeto
