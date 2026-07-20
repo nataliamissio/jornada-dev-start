@@ -11,18 +11,19 @@ O objetivo deste espaço é consolidar o meu aprendizado no ERP **TOTVS Protheus
 - **IDE/Ambiente de Desenvolvimento:** VS Code com a extensão *TDS (TOTVS Developer Studio)*
 
 ## 📅 Cronograma de Módulos & Progresso
+
 Aqui está a organização das entregas do programa, dividida em 10 etapas rumo ao projeto final:
 
-- [x] **Módulo 01:** Boas-vindas, Configuração de Ambiente e Primeiro Programa (Hello World)
-- [x] **Módulo 02:** Lógica de Programação e Algoritmos (Entregue)
-- [x] *Módulo 03:* Variáveis, tipos e operadores (Entregue)
-- [x] *Módulo 04:* Decisões (Condicionais) (Entregue)
-- [ ] **Módulo 05:** [Aguardando conteúdo]
-- [ ] **Módulo 06:** [Aguardando conteúdo]
-- [ ] **Módulo 07:** [Aguardando conteúdo]
-- [ ] **Módulo 08:** [Aguardando conteúdo]
-- [ ] **Módulo 09:** [Aguardando conteúdo]
-- [ ] **Módulo 10:** Desenvolvimento e Apresentação do Trabalho de Conclusão de Curso (TCC)
+- [x] *Módulo 01:* Boas-vindas, Configuração de Ambiente e Primeiro Programa
+- [x] *Módulo 02:* Lógica de Programação e Algoritmos
+- [x] *Módulo 03:* Variáveis, tipos e operadores
+- [x] *Módulo 04:* Decisões (Condicionais)
+- [x] *Módulo 05:* Repetição (Loops) (Entregue)
+- [ ] *Módulo 06:* [Aguardando conteúdo]
+- [ ] *Módulo 07:* [Aguardando conteúdo]
+- [ ] *Módulo 08:* [Aguardando conteúdo]
+- [ ] *Módulo 09:* [Aguardando conteúdo]
+- [ ] *Módulo 10:* Desenvolvimento e Apresentação do TCC
 
 ## 📂 Estrutura do Repositório
 Seguindo o padrão exigido para a correção das atividades, a estrutura de pastas do projeto está organizada desta forma:
@@ -40,20 +41,29 @@ Seguindo o padrão exigido para a correção das atividades, a estrutura de past
 │   ├── ex02-pseudocodigo.md      # Representação lógica em pseudocódigo
 │   ├── ex03-fluxograma-desconto.md # Fluxograma visual de decisão de desconto
 │   ├── ex04-refinamento.md       # Decomposição e refinamento sucessivo
-│   └── ex05-reflexao.md          # Reflexão sobre o papel do programador
+|   └── ex05-reflexao.md          # Reflexão sobre o papel do programador
+│
 ├── modulo_03/                    # Exercícios do Módulo 3 (Entregue)
-│   ├── ex01-declaracoes.prg
-│   ├── ex02-formulas.prg
-│   ├── ex03-desconto-idoso.prg
-│   ├── ex04-igualdade.prg
-│   └── ex05-media-ponderada.prg
+│   ├── ex01-declaracoes.prg      # Declaração e inicialização de variáveis
+│   ├── ex02-formulas.prg           # Cálculos matemáticos básicos
+│   ├── ex03-desconto-idoso.prg     # Aplicação de desconto por idade
+│   ├── ex04-igualdade.prg          # Operadores de comparação
+│   └── ex05-media-ponderada.prg    # Cálculo de média com pesos
 │
 ├── modulo_04/                    # Exercícios do Módulo 4 (Entregue)
-│   ├── ex01-maior-menor.prg
-│   ├── ex02-reajuste-salarial.prg
-│   ├── ex03-calculadora.prg
-│   ├── ex04-nome-mes.prg
-│   └── ex05-plano-saude.prg
+│   ├── ex01-maior-menor.prg        # Lógica de seleção (maior/menor)
+│   ├── ex02-reajuste-salarial.prg  # Condicionais para faixas salariais
+│   ├── ex03-calculadora.prg        # Calculadora com DO CASE
+│   ├── ex04-nome-mes.prg           # Conversão numérica para meses
+│   └── ex05-plano-saude.prg        # Cálculo de plano com dependentes
 │
+├── modulo_05/                    # Exercícios do Módulo 5 (Entregue)
+│   ├── ex01-sequencias-for.prg     # Uso de laços FOR/NEXT
+│   ├── ex02-dobro-while.prg        # Laço WHILE para cálculo do dobro
+│   ├── ex03-maquina-soma.prg       # Acumuladores e contadores
+│   ├── ex04-validacao-aluno.prg    # Loops de consistência de dados
+│   ├── ex05-loop-programa.prg      # Laço de persistência do programa
+│   └── ex06-adivinhe-numero.prg    # Jogo de adivinhação (desafio)
+|
 ├── tcc/                          # Código-fonte do Projeto de Conclusão (Futuro)
 └── README.md                     # Documentação do projeto
