@@ -19,7 +19,7 @@ Aqui está a organização das entregas do programa, dividida em 10 etapas rumo 
 - [x] *Módulo 03:* Variáveis, tipos e operadores
 - [x] *Módulo 04:* Decisões (Condicionais)
 - [x] *Módulo 05:* Repetição (Loops) (Entregue)
-- [ ] *Módulo 06:* [Aguardando conteúdo]
+- [x] *Módulo 06:* Funções e Arrays (Entregue)
 - [ ] *Módulo 07:* [Aguardando conteúdo]
 - [ ] *Módulo 08:* [Aguardando conteúdo]
 - [ ] *Módulo 09:* [Aguardando conteúdo]
@@ -64,6 +64,19 @@ Seguindo o padrão exigido para a correção das atividades, a estrutura de past
 │   ├── ex04-validacao-aluno.prg    # Loops de consistência de dados
 │   ├── ex05-loop-programa.prg      # Laço de persistência do programa
 │   └── ex06-adivinhe-numero.prg    # Jogo de adivinhação (desafio)
-|
+│
+├── modulo_06/                    # Exercícios do Módulo 6 (Entregue)
+│   ├── ex01-funcao-ou-procedimento.md # Diferenças entre função e procedimento
+│   ├── ex02-relogio-modular.prg       # Exibição de relógio com funções
+│   ├── ex03-calculadora-refatorada.prg # Calculadora modularizada
+│   ├── ex04-biblioteca-matematica/    # Coleção de funções matemáticas
+│   ├── ex05-jokenpo-modular.prg       # Jogo Jokenpô modularizado (desafio)
+│   ├── ex06-dias-da-semana.prg        # Mapeamento de dias utilizando vetores
+│   ├── ex07-estatisticas-numeros.prg  # Operações estatísticas sobre arrays
+│   ├── ex08-sistema-notas.prg         # Gestão de notas de alunos
+│   ├── ex09-carrinho-compras.prg      # Manipulação de itens e valores em array
+│   ├── ex10-bubble-sort.prg           # Algoritmo de ordenação (desafio)
+│   └── ex11-controle-estoque/         # Sistema completo de estoque (desafio)
+│
 ├── tcc/                          # Código-fonte do Projeto de Conclusão (Futuro)
 └── README.md                     # Documentação do projeto
