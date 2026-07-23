@@ -18,8 +18,8 @@ Aqui está a organização das entregas do programa, dividida em 10 etapas rumo 
 - [x] *Módulo 02:* Lógica de Programação e Algoritmos
 - [x] *Módulo 03:* Variáveis, tipos e operadores
 - [x] *Módulo 04:* Decisões (Condicionais)
-- [x] *Módulo 05:* Repetição (Loops) (Entregue)
-- [x] *Módulo 06:* Funções e Arrays (Entregue)
+- [x] *Módulo 05:* Repetição (Loops) 
+- [x] *Módulo 06:* Funções e Arrays 
 - [ ] *Módulo 07:* [Aguardando conteúdo]
 - [ ] *Módulo 08:* [Aguardando conteúdo]
 - [ ] *Módulo 09:* [Aguardando conteúdo]
