@@ -12,7 +12,7 @@ O objetivo deste espaço é consolidar o meu aprendizado no ERP **TOTVS Protheus
 
 ## 📅 Cronograma de Módulos & Progresso
 
-Aqui está a organização das entregas do programa, dividida em 10 etapas rumo ao projeto final:
+Aqui está a organização das entregas do programa, dividida em etapas rumo ao projeto final:
 
 - [x] *Módulo 01:* Boas-vindas, Configuração de Ambiente e Primeiro Programa
 - [x] *Módulo 02:* Lógica de Programação e Algoritmos
@@ -20,10 +20,21 @@ Aqui está a organização das entregas do programa, dividida em 10 etapas rumo 
 - [x] *Módulo 04:* Decisões (Condicionais)
 - [x] *Módulo 05:* Repetição (Loops) 
 - [x] *Módulo 06:* Funções e Arrays 
-- [ ] *Módulo 07:* [Aguardando conteúdo]
-- [ ] *Módulo 08:* [Aguardando conteúdo]
-- [ ] *Módulo 09:* [Aguardando conteúdo]
-- [ ] *Módulo 10:* Desenvolvimento e Apresentação do TCC
+- [x] *Módulo 07:* Entrando no Protheus (Arquitetura e Dicionário)
+- [x] *Módulo 08:* CRUD no Protheus (AxCadastro e mBrowse)
+- [ ] *Módulo 09:* Projeto CRUD Completo + Tratamento de Erros
+- [x] *Módulo 10:* TCC / Repositório do Projeto Final
+
+## 📂 Descrição dos Módulos Finais
+
+### Módulo 07 — Entrando no Protheus (Arquitetura e Dicionário)
+* **Conteúdo:** Introdução à arquitetura do Protheus e ao funcionamento do Dicionário de Dados (SXs). Compreensão de como o ERP gerencia tabelas, campos e índices, e a estrutura básica para o desenvolvimento dentro do ecossistema TOTVS.
+
+### Módulo 08 — CRUD no Protheus (`AxCadastro` e `mBrowse`)
+* **Conteúdo:** Implementação de rotinas de listagem e manutenção de dados utilizando componentes nativos do Advanced Protheus Language (ADVPL). Estudo prático da função `mBrowse` para exibição de registros e do `AxCadastro` para a automação de telas de cadastro.
+
+### Módulo 09 — Projeto CRUD Completo + Tratamento de Erros
+* **Conteúdo:** Desenvolvimento de um projeto CRUD completo envolvendo múltiplas tabelas, aplicação de regras de negócio avançadas, criação de gatilhos customizados e implementação de tratamento de erros robusto para garantir a estabilidade das rotinas.
 
 ## 📂 Estrutura do Repositório
 Seguindo o padrão exigido para a correção das atividades, a estrutura de pastas do projeto está organizada desta forma:
@@ -78,5 +89,31 @@ Seguindo o padrão exigido para a correção das atividades, a estrutura de past
 │   ├── ex10-bubble-sort.prg           # Algoritmo de ordenação (desafio)
 │   └── ex11-controle-estoque/         # Sistema completo de estoque (desafio)
 │
-├── tcc/                          # Código-fonte do Projeto de Conclusão (Futuro)
+├── modulo_07/                    # Exercícios do Módulo 7 (Entregue)
+│   ├── ex01-conceitos-fundamentais.md # Conceitos fundamentais do Protheus
+│   ├── ex02-estrutura-za1-pets.md     # Estruturação da tabela ZA1 (Pets)
+│   ├── ex03-recriar-za1.md            # Recriação e ajustes da tabela ZA1
+│   ├── ex04-campo-customizado-sa1.md  # Criação de campos customizados na SA1
+│   └── ex05-filial-xfilial.md         # Estudo sobre compartilhamento e XFilial
+│
+├── modulo_08/                    # Exercícios do Módulo 8 (Entregue)
+│   ├── ex01-axcadastro-vs-mbrowse.md  # Comparativo entre AxCadastro e mBrowse
+│   ├── ex02-tabela-za1.md             # Especificações da tabela ZA1
+│   ├── ex03-axcadastro-za1.prw        # Rotina AxCadastro para a tabela ZA1
+│   ├── ex04-validacao-existcpo.prw    # Validação com ExistCpo
+│   ├── ex05-mbrowse-za1.prw           # Rotina mBrowse para a tabela ZA1
+│   ├── ex06-legendas-coloridas.prw    # Implementação de legendas coloridas
+│   ├── ex07-gatilho-cep.md            # Desenvolvimento de gatilho para CEP
+│   └── ex08-filtro-mes.prw            # Filtro por mês em mBrowse
+│
+├── modulo_09/                    # Exercícios do Módulo 9 (Pendente)
+│   ├── ex01-dicionario-dados-completo.md # Dicionário de dados completo (Desafio)
+│   ├── ex02-*/                          # Vários arquivos do projeto (Desafio)
+│   ├── ex03-gatilhos-validacoes.md      # Gatilhos e validações (Desafio)
+│   ├── ex04-menu-sigacom.md             # Menu SIGACOM (Desafio)
+│   ├── ex05-tratamento-erros.prg        # Tratamento de erros com BEGIN SEQUENCE/RECOVER
+│   ├── ex06-gravacao-segura.prw         # Gravação segura com transações e RecLock
+│   └── ex07-desafio-integridade-executor.prw # Desafio de integridade (Desafio)
+│
+├── tcc/                          # Código-fonte do Projeto de Conclusão (TCC)
 └── README.md                     # Documentação do projeto
