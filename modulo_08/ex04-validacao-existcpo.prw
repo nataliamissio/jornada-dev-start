@@ -4,7 +4,7 @@
 Valida se o cliente e a loja informados existem na tabela SA1.
 
 Configuração no SX3:
-Campo: ZA1_CLIENT
+Campo: ZA1_LOJA
 X3_VALID: U_VALCLI001()
 
 @type  Function
@@ -12,6 +12,12 @@ X3_VALID: U_VALCLI001()
 /*/
 
 User Function VALCLI001()
+
+    // Se a chave composta ainda nao foi informada por completo,
+    // nao bloqueia a digitacao neste ponto.
+    If Empty(M->ZA1_CLIENT) .Or. Empty(M->ZA1_LOJA)
+        Return .T.
+    EndIf
 
     // Monta a chave de busca utilizando:
     // Filial + Código do Cliente + Loja

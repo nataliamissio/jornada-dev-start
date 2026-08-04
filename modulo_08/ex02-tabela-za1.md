@@ -59,12 +59,18 @@ Com essa configuração, ao informar o código e a loja do cliente, o Protheus c
 
 ## Passo 4 – Configuração da Validação
 
-O campo **ZA1_CLIENT** recebeu uma validação para verificar se o cliente informado existe na tabela SA1.
+Como a validação usa chave composta (**ZA1_CLIENT + ZA1_LOJA**), ela foi configurada no campo **ZA1_LOJA** (ultimo campo da chave), para evitar bloqueio antes da loja ser informada.
 
 Foi utilizada a função:
 
 ```advpl
 ExistCpo("SA1", xFilial("SA1")+M->ZA1_CLIENT+M->ZA1_LOJA, 1)
+```
+
+Opcionalmente, se tambem for usada no **ZA1_CLIENT**, a forma tolerante e:
+
+```advpl
+Empty(M->ZA1_LOJA) .Or. ExistCpo("SA1", xFilial("SA1")+M->ZA1_CLIENT+M->ZA1_LOJA, 1)
 ```
 
 Essa validação impede o cadastro de um pet para um cliente inexistente.

@@ -33,13 +33,13 @@ User Function STTIP003()
 
     // Configuração das regras de cores do browse
     // Vermelho: pets com idade aproximada superior a 10 anos
-    aAdd(aColors, {"ZA1->ZA1_DTNASC < dDataBase - 3650", "BR_RED"})
+    aAdd(aColors, {"ZA1->ZA1_DTNASC < dDataBase - 3650", "BR_VERMELHO"})
 
     // Amarelo: pets cadastrados com data de nascimento igual à data atual
-    aAdd(aColors, {"ZA1->ZA1_DTNASC == dDataBase", "BR_YELLOW"})
+    aAdd(aColors, {"ZA1->ZA1_DTNASC == dDataBase", "BR_AMARELO"})
 
     // Verde: demais registros
-    aAdd(aColors, {".T.", "BR_GREEN"})
+    aAdd(aColors, {".T.", "BR_VERDE"})
 
     // Seleciona a tabela ZA1
     dbSelectArea("ZA1")
